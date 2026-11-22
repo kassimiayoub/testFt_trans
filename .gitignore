@@ -1,0 +1,23 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Vite
+frontend/.vite/
+
+# Logs
+*.log
+
+# Prisma
+backend/src/generated/
+
+# OS files
+.DS_Store
